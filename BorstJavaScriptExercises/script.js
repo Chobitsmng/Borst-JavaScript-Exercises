@@ -32,16 +32,16 @@ function ExerciseThree() {
     var userInput = prompt("Would you like to print your name?");
     var endString = "";
     var string = "Hello. My name is " + name;
-    var newString;
+    
 
     console.log(string);
 
     while (userInput === "yes") {
         userInput = prompt("Would you like to print your name again?");
-        newString = string += "!";
-        console.log(newString);
+        console.log(string += "!");
     } 
 }
+
 //Exercise 4
 
 function Exercisefour() {
